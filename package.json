@@ -2,7 +2,7 @@
   "name": "string-matches-generator",
   "repository": "github:fabiospampinato/string-matches-generator",
   "description": "Retrieves all the matches of a regex in a string, via a generator.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
