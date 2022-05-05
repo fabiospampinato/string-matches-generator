@@ -15,8 +15,8 @@ $ npm install --save string-matches-generator
 ```js
 import stringMatches from 'string-matches–generator';
 
-const str = 'A tidy tiger tied a tighter tie to tidy her tiny tail',
-      regex = /tidy/g; // Don't forget the `g` flag, or it won't work
+const str = 'A tidy tiger tied a tighter tie to tidy her tiny tail';
+const regex = /tidy/g; // Don't forget the `g` flag, or it won't work
 
 for ( const match of stringMatches ( str, regex ) ) {
 

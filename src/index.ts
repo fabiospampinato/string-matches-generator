@@ -1,5 +1,5 @@
 
-/* STRING MATCHES */
+/* MAIN */
 
 function* stringMatches ( str: string, regex: RegExp, maxMatches = Infinity ): Generator<RegExpExecArray, void, void> {
 
