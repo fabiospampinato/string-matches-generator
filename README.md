@@ -7,7 +7,7 @@ This works exactly like [string-match](https://www.npmjs.com/package/string-matc
 ## Install
 
 ```shell
-$ npm install --save string-matches-generator
+npm install --save string-matches-generator
 ```
 
 ## Usage

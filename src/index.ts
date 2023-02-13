@@ -3,7 +3,7 @@
 
 function* stringMatches ( str: string, regex: RegExp, maxMatches = Infinity ): Generator<RegExpExecArray, void, void> {
 
-  if ( regex.flags.indexOf ( 'g' ) >= 0 ) {
+  if ( regex.global ) {
 
     regex.lastIndex = 0;
 
