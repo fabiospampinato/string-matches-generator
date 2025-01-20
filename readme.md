@@ -7,7 +7,7 @@ This works exactly like [string-match](https://www.npmjs.com/package/string-matc
 ## Install
 
 ```shell
-npm install --save string-matches-generator
+npm install string-matches-generator
 ```
 
 ## Usage
@@ -15,19 +15,14 @@ npm install --save string-matches-generator
 ```js
 import stringMatches from 'string-matches–generator';
 
+// Let's get all the matches of a regex in a string, via a generator
+
 const str = 'A tidy tiger tied a tighter tie to tidy her tiny tail';
 const regex = /tidy/g; // Don't forget the `g` flag, or it won't work
+const matches = [...stringMatches ( str, regex )];
 
-for ( const match of stringMatches ( str, regex ) ) {
-
-  console.count ( 'match' ); // => 1 // => 2
-
-}
+console.log ( matches.length ); // => 2
 ```
-
-## Related
-
-- [string-replace-all](https://github.com/fabiospampinato/string-replace-all) - Replaces all the occurrences of a string into a string with another string.
 
 ## License
 
